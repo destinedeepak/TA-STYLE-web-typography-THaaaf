@@ -54,31 +54,39 @@ body{
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
 }
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 .container{
     width:1080px;
     margin: 0 auto;
-    padding: 35px 0;
+    
 }
-/* header  */
+/* main  */
+.header{
+    padding-top: 30px;
+}
 h1{
     text-transform: capitalize;
-    font-size: 42px;
+    font-size: 48px;
     font-weight: 700;   
     color: white;
     text-shadow: 3px 3px 2px black;
 }
 
-/* main  */
+.sub-header{
+    margin: 50px 0;
+    font-weight: 700;
+}
 h3{
-    display: inline-block;
-    font-size: 20px;
+    font-size: 24px;
     color: #f60347;
 }
 date{
-    display: inline-block;
-    font-size: 18px;
+    font-size: 24px;
     color: white;
-    margin-left: 650px;
 }
 p{
     font-size: 20px;
@@ -87,7 +95,7 @@ p{
 }
 h2{
     text-transform: capitalize;
-    font-size: 40px;
+    font-size: 48px;
     font-weight: 600;   
     color: white;
     text-shadow: 3px 3px 2px black;
