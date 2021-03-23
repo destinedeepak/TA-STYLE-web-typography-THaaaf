@@ -1,0 +1,261 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* custom style  */
+
+body{
+    background-color: rgb(255,255,255);
+    line-height: 1.2;
+    font-size: 16px;
+    font-family: 'Karla', sans-serif;
+    padding-bottom: 300px;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container{
+    width:1100px;
+    margin: 0 auto;
+}
+
+.btn{
+   border: 1px solid #6E6B74;
+   padding: 12px 16px;
+   border-radius: 5px;
+   text-transform: uppercase;
+}
+.brand-name{
+    text-decoration: none;
+    font-size: 38px;
+    color: #2D2640;
+    font-weight: 500;
+    letter-spacing: -1px;
+    font-family: 'DM Serif Display', serif;
+}
+.nav-anchor a,.article1-btn{
+    text-decoration: none;
+    font-size: 20px;
+    color: #6E6B74;
+    font-family: 'Karla', sans-serif;
+    font-weight: 600;
+}
+.article1-header h1,h2,h3{
+    font-family: 'DM Serif Display', serif;
+    font-size: 62px;
+    color: white;
+}
+.article{
+    align-self: flex-start;
+    flex: 0 1 45%;
+}
+.image{
+    flex: 0 1 45%;
+    align-self: baseline;
+}
+img{
+    width: 100%;
+}
+/* header  */
+.heading{
+    margin-top: 20px;
+}
+.header-nav a{
+    text-transform: uppercase;
+    margin-left: 16px;
+}
+
+/* main  */
+.hero{
+    background-color: #2D2640;
+    margin-top: 10px;
+}
+.hero-content{
+    padding-top: 60px;
+    height: 460px;
+}
+.article1-header{
+    margin-top: 20px;
+}
+hr{
+    width:160px;
+    margin-right: 340px;
+    margin-bottom: 20px;
+}
+
+.article1 p{
+     font-size: 18px;
+     text-transform: lowercase;
+     color: #D4D4D4;
+     letter-spacing: -1px;
+     margin: 30px 0 50px 0;
+}
+
+.article1-btn{
+    color: white;
+    border: 1px solid white;
+}
+ 
+
+/* about section  */
+.about-section{
+    margin-top: 160px;
+}
+.about-section-header h2,.section-more h2{
+    color: #191525;
+    font-size: 55px;
+}
+.article2{
+    align-self: center;
+}
+.article2 p{
+    font-size: 24px;
+    letter-spacing: -1px;
+    color: #716E77;
+    margin: 30px 0 50px 0;
+}
+.article2-btn{
+    font-size: 24px;
+    color: #716E77;
+    border: 1px solid #716E77;
+    padding: 18px 20px;
+    text-transform:capitalize;
+}
+
+/* section-more  */
+.section-more{
+    margin-top: 120px;
+    /* commom */
+}
+.section-more hr{
+    margin-right: 1000px;
+    border: 1px solid #D4D4D4;
+}
+.more-column{
+    margin-top: 50px;
+}
+.more-column .row{
+    flex: 0 1 26%;
+}
+.row a{
+    color: white;
+    background: #8AB4F0;
+    padding: 15px 15px;
+    border-radius: 50%;
+}
+.row h3{
+    font-size: 25px;
+    color: #191525;
+    margin: 35px 0 22px 0;
+
+}
+.row p{
+     font-size: 18px;
+     text-transform: lowercase;
+     color: #716E77;
+     letter-spacing: -1px;
+}
+
+/* box  */
+.box{
+   margin-top: 80px;
+}
+.box-content{
+    background-color: #2D2640;
+    height: 260px;
+}
+.box-content h2{
+    font-size: 48px;
+    flex: 0 1 38%;
+    line-height: 2;
+    padding-left: 50px;
+}
+.box-content a{
+    margin-right: 50px;
+}
+
+/* extras section  */
+.extras{
+    margin-top: 70px;
+}
+.extras-icon a{
+    padding: 4px 5px;
+    border-radius: 5px;
+    background-color:#6A6970;
+    color: white;
+}
+.extras-icon .fb{
+    padding: 4px 8px;
+    margin-right:15px;
+}
+.extras hr{
+    width: 100%;
+}
+.extras-nav{
+        justify-content: center;
+}
+.extras-nav a{
+    text-transform:capitalize;
+    color: #6A6970;
+    font-weight: 400;
+    margin: 0 20px;
+}
+/* footer  */
+
+.footer{
+    background-color: #2D2640;
+    text-align: center;
+    margin-top: 20px;
+}
+.footer h4{
+    color: #9498AB;
+    font-size: 20px;
+    padding: 30px 0;
+}
